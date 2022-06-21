@@ -7,13 +7,18 @@ body {
     transform: translate(-50%, -50%);
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 .welcome-container {
     display: flex;
     align-items: center;
 }
 
 .welcome-message {
-    width: 550px;
+    width: 590px;
 }
 
 .welcome-greeting {
@@ -40,6 +45,10 @@ body {
 .welcome-blurb > p {
     font-size: 28px;
     font-weight: 300;
+}
+
+.welcome-blurb-emphasis {
+    font-weight: 500;
 }
 
 .welcome-picture-container {
