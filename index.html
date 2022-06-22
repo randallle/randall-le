@@ -17,24 +17,18 @@
             <div class="welcome-blurb">
                 <p>I’m a software engineer based in<br>Los Angeles, CA. </p>
                 <p>I’m currently a software development intern at <span class="welcome-blurb-emphasis">Tempus Technologies</span>.</p>
-                <p>You can find my resume <a href="Randall Le Resume.pdf" class="welcome-blurb-emphasis">here</a>. I would love to get in touch. Feel free to connect with me. <span id="test"></span></p>
+                <p>You can find my resume <a href="Randall Le Resume.pdf" class="welcome-blurb-emphasis">here</a>. I would love to get in touch. Feel free to connect with me.</p>
             </div>
         </div>
         <div class="welcome-picture-container">
             <img src="./images/randallle-memoji.png" alt="randallle-memoji">
         </div>
-
     </div>
-
     
-
     <script>
-        if (navigator.platform.indexOf("Android") === 0) {
+        if ((navigator.platform.indexOf("Android") === 0) || (navigator.platform.indexOf("Linux") === 0)) {
             document.getElementsByClassName("welcome-greeting")[0].style.background = "#32CF4C";
         }
-
-        document.getElementById('test').append(navigator.platform)
-
     </script>
 </body>
 </html>
