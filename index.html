@@ -26,10 +26,14 @@
 
     </div>
 
+    <p id="test"></p>
+
     <script>
         if (navigator.platform.indexOf("Android") === 0) {
             document.getElementsByClassName("welcome-greeting")[0].style.background = "#32CF4C";
         }
+
+        document.getElementById('test').append(navigator.platform)
 
     </script>
 </body>
