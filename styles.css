@@ -1,98 +1,68 @@
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  margin: 0px;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 a {
-  color: black;
-  /* text-decoration: none; */
+    color: black;
+    text-decoration: none;
 }
 
 .welcome-container {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .welcome-message {
-  width: 590px;
+    width: 590px;
 }
 
 .welcome-greeting {
-  font-weight: 300;
-  font-size: 50px;
-  background: #1982fc;
-  color: white;
-  padding: 20px 50px;
-  border-radius: 30px;
-  margin: 0px;
+    font-weight: 300;
+    font-size: 50px;
+    background: #1982FC;
+    color: white;
+    padding: 20px 50px;
+    border-radius: 30px;
+    margin: 0px;
 }
 
 .welcome-my-name {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 .welcome-blurb {
-  background-color: #efeef6;
-  padding: 20px 50px;
-  border-radius: 30px;
-  margin-top: 35px;
+    background-color: #EFEEF6;
+    padding: 20px 50px;
+    border-radius: 30px;
+    margin-top: 35px;
 }
 
 .welcome-blurb > p {
-  font-size: 28px;
-  font-weight: 300;
+    font-size: 28px;
+    font-weight: 300;
 }
 
 .welcome-blurb-emphasis {
-  font-weight: 500;
+    font-weight: 500;
 }
 
 .welcome-picture-container {
-  margin-left: 40px;
-  background-color: #bae8fc;
-  width: 400px;
-  height: 400px;
-  line-height: 400px;
-  border-radius: 100%;
-  text-align: center;
+    margin-left: 40px;
+    background-color: #BAE8FC;
+    width: 400px;
+    height: 400px;
+    line-height: 400px;
+    border-radius: 100%;
+    text-align: center;
 }
 
-.welcome-picture-container video {
-  position: absolute;
-  top: 25%;
-  left: 56%;
-  max-width: 50%;
-  /* width: 150%; */
-  max-height: 100%;
-  vertical-align: middle;
-}
-
-.cards {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 35px;
-}
-
-.card {
-  background-color: #efeef6;
-  width: 170px;
-  height: 130px;
-  text-align: center;
-  border-radius: 30px;
-}
-
-.card-logo {
-  padding: 30px;
-  height: 100%;
-}
-
-.card-logo svg {
-  fill: #333;
-  max-height: 55%;
-  max-width: 55%;
+.welcome-picture-container > img {
+    max-width:75%;
+    max-height:100%;
+    vertical-align: middle;
 }
